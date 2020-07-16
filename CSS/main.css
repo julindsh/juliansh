@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.imagen img{
+  width: 100vw;
+  height:100vh;
+}
+
+.texto h1 {
+  font-size: 45px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+
+  font-family: 'Merriweather', serif;}
+
+.texto p {
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  color: #fff;
+  font-family: 'Merriweather', serif;}
+
+  .borde img{
+    width: 12vw;
+    height:24vh;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    border: 5px solid rgb(255,255,255) ;
+    border-radius: 100%;
+  }
+  .borde img{
+    z-index: 1;
+  }
